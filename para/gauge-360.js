@@ -14,7 +14,7 @@ class GaugeLiftmate extends HTMLElement {
           <canvas></canvas>
         `;
 
-    this.sensors = new Sensors( true )
+    this.sensors = new Sensors( false )
     this.track = []
     this.bearing = 0
     this.current_gauge_bearing = 0
